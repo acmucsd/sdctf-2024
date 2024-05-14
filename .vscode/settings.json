@@ -1,0 +1,4 @@
+{
+  "deno.enablePaths": ["./web/utf-wait/", "./web/calculator/"],
+  "deno.enable": true
+}

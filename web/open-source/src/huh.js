@@ -1,0 +1,15 @@
+export const bana = () => 'a'
+export const bananana = () => 'a' // this one is to keep them on their toes
+export const c = () => 'c'
+export const dirby = () => 'd'
+export const extremely = () => 'e'
+export const orange = () => 'f'
+export const teapot = () => 'f'
+export const banana = () => 'g'
+export const apple = () => 'l'
+export const not = () => 'n'
+export const particularly = () => 'p'
+export const seed = () => 's'
+export const torch = () => 't'
+export const interesting = () => 'e'
+export const obj = { not, particularly, interesting }
