@@ -71,6 +71,7 @@ This repository contains the official source code for *most* challenges from [SD
 | [Fancy Text Viewer](web/fancy-text-viewer) | ahh    | Hard       | 444    |
 | [SNOWfall](web/snowfall)                   | ahh    | Medium     | 500    |
 
+[Banner]: https://files.catbox.moe/r9bzcx.png
 [CTFTime Event]: https://ctftime.org/event/2325/
 [Website]: https://ctf.sdc.tf/
 [Discord]: https://discord.com/invite/GpC6YFrf4h
