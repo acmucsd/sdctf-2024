@@ -1,15 +1,17 @@
-## Challenge Name, Stylized
+## Watch the Waves 2
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author    | Category  | Difficulty | Points | Solves | First Blood |
+| --------- | --------- | ---------- | ------ | ------ | ----------- |
+| mojeanmac | Forensics | Medium     | 158    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> Great Scott! There’s something in the water! Scan slowly.
+> 
+> ![image](dist/wavs2.png)
 
 ### Challenge Files
 
-[dist.zip](dist)
+[wavs2.png](dist/wavs2.png)
