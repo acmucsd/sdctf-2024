@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fancy Text Viewer
+        <% if (sharedby) { %>
+            | Shared by <%- sharedby %>
+        <% } %>
+    </title>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Hello <%- username %>!</h2>
+        <p>Enter your text below, and we will make it fancy!</p>
+
+        <form action="/view" method="get">
+            <input type="text" name="content" placeholder="Enter your text here" required>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <br>
+        <% if (flag) { %>
+            <p>Oh? You seem to have a flag! You can view it <a href="view?content=<%- flag %>">here</a>!</p>
+        <% } %>
+
+    
+
+        <% if (username !=='GUEST' ) { %>
+            <div>
+                <p>Do you like this site? Share it to a friend! </p>
+                <button id="shareButton">Share</button>
+                <script>
+                    window.onload = () => {
+                        let sharingUrl = new URL(window.location.href);
+    
+                        const usernameCookie = document.cookie.split('; ').find(cookie => cookie.startsWith('username='));
+                        if (usernameCookie) {
+                            const usernameValue = usernameCookie.split('=')[1];
+                            sharingUrl.searchParams.append('sharedby', usernameValue);
+                        }
+    
+                        document.getElementById('shareButton').addEventListener('click', () => {
+                            navigator.share({
+                                title: 'Fancy Text Viewer',
+                                text: 'Check out this fancy text viewer!',
+                                url: sharingUrl
+                            })
+                        });
+                    }
+                </script>
+            </div>
+        <% } %>
+    </div>
+    <br>
+</body>
+</html>

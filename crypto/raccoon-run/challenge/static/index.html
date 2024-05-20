@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Raccoon Run</title>
+    <meta name="description" content="Bet on raccoons!" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" type="module"></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <p class="status">
+      <span><strong>Balance:</strong> <span id="balance">0</span></span>
+      <button id="buy-flag" title="You need 1000 credits to buy a flag!">
+        Buy Flag
+      </button>
+    </p>
+    <form id="bet" action="javascript:" class="cant-bet">
+      <h2>Betting (<code id="time">0.000</code>s left)</h2>
+      <label
+        >Who will win?
+        <input
+          type="text"
+          name="order"
+          placeholder="12345678"
+          pattern="[1-8]{8}"
+      /></label>
+      <p>
+        Put the raccoon numbers in order of who you expect to win first. Should
+        be a permutation of <code>12345678</code>.
+      </p>
+      <label
+        >Bet amount:
+        <input type="number" min="0" name="amount" placeholder="10"
+      /></label>
+      <button>Bet</button>
+    </form>
+    <div id="responses"></div>
+    <dialog id="modal">
+      <form method="dialog">
+        <div id="modal-content"></div>
+        <button>Close</button>
+      </form>
+    </dialog>
+  </body>
+</html>

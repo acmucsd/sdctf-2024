@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "esbuild --bundle client/index.ts --outdir=static --format=esm --minify",
+    "watch": "esbuild --bundle client/index.ts --outdir=static --format=esm --minify --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.1"
+  }
+}

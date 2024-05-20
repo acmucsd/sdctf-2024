@@ -4,6 +4,9 @@
 | ------ | -------- | ---------- | ------ | ------ | ----------- |
 | ahh    | Web      | Medium     | 500    |        |             |
 
+> [!IMPORTANT]
+> Unfortunately, source code for this challenge will be undisclosed. However, [SNOWfall.zip](dist) is still provided.
+
 ---
 
 ### Description
@@ -23,7 +26,8 @@
 > - Note down the username and password provided
 > - Login to the instance at [https://dev258962.service-now.com/sp](https://dev258962.service-now.com/sp) using those credentials
 
-> Note: As since this is a third-party instance, **NO BRUTE FORCE** of any kind (No automation / brute force of any kind is needed to solve this challenge). Additionally, the only domain in scope is the provided one. **DO NOT ATTEMPT** to test any other `*.service-now.com` domain NOR any `*.servicenow.com` domain. 
+> [!NOTE]
+> As since this is a third-party instance, **NO BRUTE FORCE** of any kind (No automation / brute force of any kind is needed to solve this challenge). Additionally, the only domain in scope is the provided one. **DO NOT ATTEMPT** to test any other `*.service-now.com` domain NOR any `*.servicenow.com` domain. 
 
 ### Hints
 
