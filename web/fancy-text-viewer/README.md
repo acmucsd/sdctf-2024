@@ -16,4 +16,4 @@
 
 ### Challenge Files
 
-[dist.zip](dist)
+[fancy_text_viewer.zip](dist)

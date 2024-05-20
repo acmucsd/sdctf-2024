@@ -24,7 +24,7 @@
 
 ### Challenge Files
 
-[dist.zip](challenge)
+[calculator.zip](challenge)
 
 ### Deployment
 

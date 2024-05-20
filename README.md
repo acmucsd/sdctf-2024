@@ -2,11 +2,13 @@
 
 # ![Banner][Banner]
 
-This repository contains the official source code for *most* challenges from [SDCTF 2024][CTFTime Event].
+This repository contains the official source code for _most_ challenges from [SDCTF 2024][CTFTime Event].
 
 [CTFTime Event][CTFTime Event] •
 [Website][Website] •
 [Discord][Discord]
+
+![Leaderboard][Leaderboard]
 
 ---
 
@@ -14,13 +16,13 @@ This repository contains the official source code for *most* challenges from [SD
 
 ## Crypto
 
-| Name                                                  | Author | Difficulty | Points |
-| ----------------------------------------------------- | ------ | ---------- | ------ |
-| [ComplexProblem](crypto/complex-problem)              |
-| [SDES](crypto/sdes)                                   |
-| [Raccoon Run](crypto/raccoon-run)                     |
-| [SDES++](crypto/sdes-plus-plus)                       |
-| [ReallyComplexProblem](crypto/really-complex-problem) |
+| Name                                                  | Author(s)                | Difficulty | Points |
+| ----------------------------------------------------- | ------------------------ | ---------- | ------ |
+| [ComplexProblem](crypto/complex-problem)              | 18lauey2                 | Easy       | 100    |
+| [SDES](crypto/sdes)                                   | 18lauey2                 | Easy       | 130    |
+| [Raccoon Run](crypto/raccoon-run)                     | Sean, Infernis, 18lauey2 | Medium     | 226    |
+| [SDES++](crypto/sdes-plus-plus)                       | 18lauey2                 | Hard       | 432    |
+| [ReallyComplexProblem](crypto/really-complex-problem) | 18lauey2                 | Hard       | 500    |
 
 ## Forensics
 
@@ -72,6 +74,7 @@ This repository contains the official source code for *most* challenges from [SD
 | [SNOWfall](web/snowfall)                   | ahh    | Medium     | 500    |
 
 [Banner]: https://files.catbox.moe/r9bzcx.png
+[Leaderboard]: https://files.catbox.moe/5xpiyv.svg
 [CTFTime Event]: https://ctftime.org/event/2325/
 [Website]: https://ctf.sdc.tf/
 [Discord]: https://discord.com/invite/GpC6YFrf4h
