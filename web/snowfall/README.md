@@ -4,9 +4,6 @@
 | ------ | -------- | ---------- | ------ | ------ | ----------- |
 | ahh    | Web      | Medium     | 500    |        |             |
 
-> [!IMPORTANT]
-> Unfortunately, source code for this challenge will be undisclosed. However, [SNOWfall.zip](dist) is still provided.
-
 ---
 
 ### Description

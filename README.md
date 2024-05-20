@@ -26,21 +26,21 @@ This repository contains the official source code for _most_ challenges from [SD
 
 ## Forensics
 
-| Name                                             | Author | Difficulty | Points |
-| ------------------------------------------------ | ------ | ---------- | ------ |
-| [Watch the Waves](forensics/watch-the-waves)     |
-| [Watch the Waves 2](forensics/watch-the-waves-2) |
+| Name                                             | Author    | Difficulty | Points |
+| ------------------------------------------------ | --------- | ---------- | ------ |
+| [Watch the Waves](forensics/watch-the-waves)     | mojeanmac | Medium     | 112    |
+| [Watch the Waves 2](forensics/watch-the-waves-2) | mojeanmac | Medium     | 158    |
 
 ## Misc
 
-| Name                                      | Author | Difficulty | Points |
-| ----------------------------------------- | ------ | ---------- | ------ |
-| [impossible-golf](misc/impossible-golf)   |
-| [Chill Beats](misc/chill-beats)           |
-| [blackjack](misc/blackjack)               |
-| [Finding Savage](misc/finding-savage)     |
-| [d-d-d2-a1](misc/d-d-d2-a1)               |
-| [my-favorite-code](misc/my-favorite-code) |
+| Name                                      | Author    | Difficulty | Points |
+| ----------------------------------------- | --------- | ---------- | ------ |
+| [impossible-golf](misc/impossible-golf)   | Infernis  | Easy       | 125    |
+| [Chill Beats](misc/chill-beats)           | mojeanmac | Easy       | 162    |
+| [blackjack](misc/blackjack)               | ahh       | Easy       | 162    |
+| [Finding Savage](misc/finding-savage)     | Infernis  | Hard       | 233    |
+| [d-d-d2-a1](misc/d-d-d2-a1)               | Infernis  | Medium     | 372    |
+| [my-favorite-code](misc/my-favorite-code) | ahh       | Medium     | 500    |
 
 ## Pwn
 

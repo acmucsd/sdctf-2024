@@ -1,15 +1,15 @@
-## Challenge Name, Stylized
+## Chill Beats
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author    | Category                         | Difficulty | Points | Solves | First Blood |
+| --------- | -------------------------------- | ---------- | ------ | ------ | ----------- |
+| mojeanmac | Miscellaneous (OSINT, Forensics) | Easy       | 162    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> Why don’t we all just take a break from hacking and enjoy some music on my webpage? https://0xcafe.neocities.org/
 
-### Challenge Files
+### Hints
 
-[dist.zip](dist)
+> There's also lots of other sites out there streaming sweet jams!

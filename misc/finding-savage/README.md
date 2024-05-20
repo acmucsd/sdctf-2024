@@ -1,15 +1,10 @@
-## Challenge Name, Stylized
+## Finding Savage
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author   | Category              | Difficulty | Points | Solves | First Blood |
+| -------- | --------------------- | ---------- | ------ | ------ | ----------- |
+| Infernis | Miscellaneous (OSINT) | Hard       | 233    |        |             |
 
 ---
 
-### Description
-
-> DESCRIPTION
-
-### Challenge Files
-
-[dist.zip](dist)
+> [!WARNING]
+> Unfortunately, this challenge description is redacted as to respect the privacy of all persons involved.

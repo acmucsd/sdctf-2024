@@ -1,15 +1,17 @@
-## Challenge Name, Stylized
+## impossible-golf
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author   | Category      | Difficulty | Points | Solves | First Blood |
+| -------- | ------------- | ---------- | ------ | ------ | ----------- |
+| Infernis | Miscellaneous | Easy       | 125    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> I found this golf game online but the third level is so hard 😩😩 
+> 
+> See if you can beat it!
 
 ### Challenge Files
 
-[dist.zip](dist)
+[server.js](dist/server.js)

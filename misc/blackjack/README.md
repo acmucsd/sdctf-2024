@@ -1,15 +1,15 @@
-## Challenge Name, Stylized
+## blackjack
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author | Category            | Difficulty | Points | Solves | First Blood |
+| ------ | ------------------- | ---------- | ------ | ------ | ----------- |
+| ahh    | Miscellaneous (PPC) | Easy       | 162    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> GAMBA
 
 ### Challenge Files
 
-[dist.zip](dist)
+[blackjack.zip](dist)

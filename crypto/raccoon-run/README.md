@@ -12,4 +12,4 @@
 
 ### Challenge Files
 
-[server.py](dist)
+[server.py](dist/server.py)

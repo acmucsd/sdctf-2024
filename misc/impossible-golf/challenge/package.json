@@ -1,0 +1,19 @@
+{
+  "name": "golf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "golf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}
