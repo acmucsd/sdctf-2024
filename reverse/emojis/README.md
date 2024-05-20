@@ -1,15 +1,19 @@
-## Challenge Name, Stylized
+## Emojis
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author      | Category | Difficulty | Points | Solves | First Blood |
+| ----------- | -------- | ---------- | ------ | ------ | ----------- |
+| greeenbeans | Reverse  | Easy       | 100    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> I have this simple encryption machine that works on emojis! Can you help me find the key?
+>
+> Hint: the key is the flag
+>
+> **Flag format: SDCTF{.+}**
 
 ### Challenge Files
 
-[dist.zip](dist)
+[emoji.py](challenge/emoji.py)

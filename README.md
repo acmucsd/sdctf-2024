@@ -14,7 +14,7 @@ This repository contains the official source code for _most_ challenges from [SD
 
 </div>
 
-## Crypto
+## Cryptography
 
 | Name                                                  | Author(s)                | Difficulty | Points |
 | ----------------------------------------------------- | ------------------------ | ---------- | ------ |
@@ -31,7 +31,7 @@ This repository contains the official source code for _most_ challenges from [SD
 | [Watch the Waves](forensics/watch-the-waves)     | mojeanmac | Medium     | 112    |
 | [Watch the Waves 2](forensics/watch-the-waves-2) | mojeanmac | Medium     | 158    |
 
-## Misc
+## Miscellaneous
 
 | Name                                      | Author    | Difficulty | Points |
 | ----------------------------------------- | --------- | ---------- | ------ |
@@ -44,24 +44,24 @@ This repository contains the official source code for _most_ challenges from [SD
 
 ## Pwn
 
-| Name                                                                    | Author    | Difficulty | Points |
-| ----------------------------------------------------------------------- | --------- | ---------- | ------ |
-| [point-plunderer](pwn/point-plunderer)                                  | Rahil     | Easy       | 100    |
-| [Snake](pwn/snake)                                                      | Xia0o0o0o | Easy       | 146    |
-| [SlowJS](pwn/slowjs)                                                    | Xia0o0o0o | Medium     | 300    |
-| [N0 Promises to Keep](pwn/no-promises-to-keep)                          | Xia0o0o0o | Medium     | 316    |
-| [SlowJS++](pwn/slowjs-plus-plus)                                        | Xia0o0o0o | Medium     | 472    |
-| [N0 Promises to Keep Revenge](pwn/no-promises-to-keep-revenge)          | Xia0o0o0o | Medium     | 500    |
-| [Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de](pwn/definitely-safe) | Xia0o0o0o | Medium     | 500    |
-| [iOS Calculator](pwn/ios-calculator)                                    | Xia0o0o0o | Hard       | 500    |
+| Name                                                                    | Author      | Difficulty | Points |
+| ----------------------------------------------------------------------- | ----------- | ---------- | ------ |
+| [point-plunderer](pwn/point-plunderer)                                  | greeenbeans | Easy       | 100    |
+| [Snake](pwn/snake)                                                      | Xia0o0o0o   | Easy       | 146    |
+| [SlowJS](pwn/slowjs)                                                    | Xia0o0o0o   | Medium     | 300    |
+| [N0 Promises to Keep](pwn/no-promises-to-keep)                          | Xia0o0o0o   | Medium     | 316    |
+| [SlowJS++](pwn/slowjs-plus-plus)                                        | Xia0o0o0o   | Medium     | 472    |
+| [N0 Promises to Keep Revenge](pwn/no-promises-to-keep-revenge)          | Xia0o0o0o   | Medium     | 500    |
+| [Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de](pwn/definitely-safe) | Xia0o0o0o   | Medium     | 500    |
+| [iOS Calculator](pwn/ios-calculator)                                    | Xia0o0o0o   | Hard       | 500    |
 
 ## Reverse
 
-| Name                                                 | Author | Difficulty | Points |
-| ---------------------------------------------------- | ------ | ---------- | ------ |
-| [Emojis](reverse/emojis)                             |
-| [food-without-salt](reverse/food-without-salt)       |
-| [super-speedy-decoder](reverse/super-speedy-decoder) |
+| Name                                                 | Author      | Difficulty | Points |
+| ---------------------------------------------------- | ----------- | ---------- | ------ |
+| [Emojis](reverse/emojis)                             | greeenbeans | Easy       | 100    |
+| [food-without-salt](reverse/food-without-salt)       | enscribe    | Medium     | 136    |
+| [super-speedy-decoder](reverse/super-speedy-decoder) | greeenbeans | Medium     | 234    |
 
 ## Web
 
@@ -74,7 +74,7 @@ This repository contains the official source code for _most_ challenges from [SD
 | [SNOWfall](web/snowfall)                   | ahh    | Medium     | 500    |
 
 [Banner]: https://files.catbox.moe/r9bzcx.png
-[Leaderboard]: https://files.catbox.moe/5xpiyv.svg
+[Leaderboard]: https://files.catbox.moe/yrsay5.png
 [CTFTime Event]: https://ctftime.org/event/2325/
 [Website]: https://ctf.sdc.tf/
 [Discord]: https://discord.com/invite/GpC6YFrf4h

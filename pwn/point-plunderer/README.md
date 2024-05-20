@@ -1,8 +1,8 @@
 ## point-plunderer
 
-| Author | Category | Difficulty | Points | Solves | First Blood |
-| ------ | -------- | ---------- | ------ | ------ | ----------- |
-| Rahil  | Pwn      | Easy       | 100    |        |             |
+| Author      | Category | Difficulty | Points | Solves | First Blood |
+| ----------- | -------- | ---------- | ------ | ------ | ----------- |
+| greeenbeans | Pwn      | Easy       | 100    |        |             |
 
 ---
 
