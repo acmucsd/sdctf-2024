@@ -1,0 +1,10 @@
+Port 12345
+AddressFamily any
+ListenAddress 0.0.0.0
+
+PasswordAuthentication yes
+PermitEmptyPasswords no
+PermitRootLogin yes
+
+PermitTTY yes
+ForceCommand /run.sh

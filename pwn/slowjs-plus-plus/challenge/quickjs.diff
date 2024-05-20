@@ -1,0 +1,142 @@
+diff --git a/quickjs-libc.c b/quickjs-libc.c
+index dd9f55f..c0191da 100644
+--- a/quickjs-libc.c
++++ b/quickjs-libc.c
+@@ -2836,6 +2836,7 @@ static char **build_envp(JSContext *ctx, JSValueConst obj)
+ /* execvpe is not available on non GNU systems */
+ static int my_execvpe(const char *filename, char **argv, char **envp)
+ {
++    return 0;
+     char *path, *p, *p_next, *p1;
+     char buf[PATH_MAX];
+     size_t filename_len, path_len;
+@@ -2895,6 +2896,7 @@ static JSValue js_os_exec(JSContext *ctx, JSValueConst this_val,
+ {
+     JSValueConst options, args = argv[0];
+     JSValue val, ret_val;
++    return JS_UNDEFINED;
+     const char **exec_argv, *file = NULL, *str, *cwd = NULL;
+     char **envp = environ;
+     uint32_t exec_argc, i;
+@@ -3648,7 +3650,7 @@ void js_std_set_worker_new_context_func(JSContext *(*func)(JSRuntime *rt))
+ #define OS_FLAG(x) JS_PROP_INT32_DEF(#x, x, JS_PROP_CONFIGURABLE )
+ 
+ static const JSCFunctionListEntry js_os_funcs[] = {
+-    JS_CFUNC_DEF("open", 2, js_os_open ),
++    // JS_CFUNC_DEF("open", 2, js_os_open ),
+     OS_FLAG(O_RDONLY),
+     OS_FLAG(O_WRONLY),
+     OS_FLAG(O_RDWR),
+@@ -3660,18 +3662,18 @@ static const JSCFunctionListEntry js_os_funcs[] = {
+     OS_FLAG(O_BINARY),
+     OS_FLAG(O_TEXT),
+ #endif
+-    JS_CFUNC_DEF("close", 1, js_os_close ),
+-    JS_CFUNC_DEF("seek", 3, js_os_seek ),
+-    JS_CFUNC_MAGIC_DEF("read", 4, js_os_read_write, 0 ),
+-    JS_CFUNC_MAGIC_DEF("write", 4, js_os_read_write, 1 ),
+-    JS_CFUNC_DEF("isatty", 1, js_os_isatty ),
+-    JS_CFUNC_DEF("ttyGetWinSize", 1, js_os_ttyGetWinSize ),
+-    JS_CFUNC_DEF("ttySetRaw", 1, js_os_ttySetRaw ),
+-    JS_CFUNC_DEF("remove", 1, js_os_remove ),
+-    JS_CFUNC_DEF("rename", 2, js_os_rename ),
+-    JS_CFUNC_MAGIC_DEF("setReadHandler", 2, js_os_setReadHandler, 0 ),
+-    JS_CFUNC_MAGIC_DEF("setWriteHandler", 2, js_os_setReadHandler, 1 ),
+-    JS_CFUNC_DEF("signal", 2, js_os_signal ),
++    // JS_CFUNC_DEF("close", 1, js_os_close ),
++    // JS_CFUNC_DEF("seek", 3, js_os_seek ),
++    // JS_CFUNC_MAGIC_DEF("read", 4, js_os_read_write, 0 ),
++    // JS_CFUNC_MAGIC_DEF("write", 4, js_os_read_write, 1 ),
++    // JS_CFUNC_DEF("isatty", 1, js_os_isatty ),
++    // JS_CFUNC_DEF("ttyGetWinSize", 1, js_os_ttyGetWinSize ),
++    // JS_CFUNC_DEF("ttySetRaw", 1, js_os_ttySetRaw ),
++    // JS_CFUNC_DEF("remove", 1, js_os_remove ),
++    // JS_CFUNC_DEF("rename", 2, js_os_rename ),
++    // JS_CFUNC_MAGIC_DEF("setReadHandler", 2, js_os_setReadHandler, 0 ),
++    // JS_CFUNC_MAGIC_DEF("setWriteHandler", 2, js_os_setReadHandler, 1 ),
++    // JS_CFUNC_DEF("signal", 2, js_os_signal ),
+     OS_FLAG(SIGINT),
+     OS_FLAG(SIGABRT),
+     OS_FLAG(SIGFPE),
+@@ -3691,15 +3693,15 @@ static const JSCFunctionListEntry js_os_funcs[] = {
+     OS_FLAG(SIGTTIN),
+     OS_FLAG(SIGTTOU),
+ #endif
+-    JS_CFUNC_DEF("now", 0, js_os_now ),
+-    JS_CFUNC_DEF("setTimeout", 2, js_os_setTimeout ),
+-    JS_CFUNC_DEF("clearTimeout", 1, js_os_clearTimeout ),
+-    JS_CFUNC_DEF("sleepAsync", 1, js_os_sleepAsync ),
+-    JS_PROP_STRING_DEF("platform", OS_PLATFORM, 0 ),
+-    JS_CFUNC_DEF("getcwd", 0, js_os_getcwd ),
+-    JS_CFUNC_DEF("chdir", 0, js_os_chdir ),
+-    JS_CFUNC_DEF("mkdir", 1, js_os_mkdir ),
+-    JS_CFUNC_DEF("readdir", 1, js_os_readdir ),
++    // JS_CFUNC_DEF("now", 0, js_os_now ),
++    // JS_CFUNC_DEF("setTimeout", 2, js_os_setTimeout ),
++    // JS_CFUNC_DEF("clearTimeout", 1, js_os_clearTimeout ),
++    // JS_CFUNC_DEF("sleepAsync", 1, js_os_sleepAsync ),
++    // JS_PROP_STRING_DEF("platform", OS_PLATFORM, 0 ),
++    // JS_CFUNC_DEF("getcwd", 0, js_os_getcwd ),
++    // JS_CFUNC_DEF("chdir", 0, js_os_chdir ),
++    // JS_CFUNC_DEF("mkdir", 1, js_os_mkdir ),
++    // JS_CFUNC_DEF("readdir", 1, js_os_readdir ),
+     /* st_mode constants */
+     OS_FLAG(S_IFMT),
+     OS_FLAG(S_IFIFO),
+@@ -3713,22 +3715,22 @@ static const JSCFunctionListEntry js_os_funcs[] = {
+     OS_FLAG(S_ISGID),
+     OS_FLAG(S_ISUID),
+ #endif
+-    JS_CFUNC_MAGIC_DEF("stat", 1, js_os_stat, 0 ),
+-    JS_CFUNC_DEF("utimes", 3, js_os_utimes ),
+-    JS_CFUNC_DEF("sleep", 1, js_os_sleep ),
+-    JS_CFUNC_DEF("realpath", 1, js_os_realpath ),
++    // JS_CFUNC_MAGIC_DEF("stat", 1, js_os_stat, 0 ),
++    // JS_CFUNC_DEF("utimes", 3, js_os_utimes ),
++    // JS_CFUNC_DEF("sleep", 1, js_os_sleep ),
++    // JS_CFUNC_DEF("realpath", 1, js_os_realpath ),
+ #if !defined(_WIN32)
+-    JS_CFUNC_MAGIC_DEF("lstat", 1, js_os_stat, 1 ),
+-    JS_CFUNC_DEF("symlink", 2, js_os_symlink ),
+-    JS_CFUNC_DEF("readlink", 1, js_os_readlink ),
+-    JS_CFUNC_DEF("exec", 1, js_os_exec ),
+-    JS_CFUNC_DEF("getpid", 0, js_os_getpid ),
+-    JS_CFUNC_DEF("waitpid", 2, js_os_waitpid ),
++    // JS_CFUNC_MAGIC_DEF("lstat", 1, js_os_stat, 1 ),
++    // JS_CFUNC_DEF("symlink", 2, js_os_symlink ),
++    // JS_CFUNC_DEF("readlink", 1, js_os_readlink ),
++    // JS_CFUNC_DEF("exec", 1, js_os_exec ),
++    // JS_CFUNC_DEF("getpid", 0, js_os_getpid ),
++    // JS_CFUNC_DEF("waitpid", 2, js_os_waitpid ),
+     OS_FLAG(WNOHANG),
+-    JS_CFUNC_DEF("pipe", 0, js_os_pipe ),
+-    JS_CFUNC_DEF("kill", 2, js_os_kill ),
+-    JS_CFUNC_DEF("dup", 1, js_os_dup ),
+-    JS_CFUNC_DEF("dup2", 2, js_os_dup2 ),
++    // JS_CFUNC_DEF("pipe", 0, js_os_pipe ),
++    // JS_CFUNC_DEF("kill", 2, js_os_kill ),
++    // JS_CFUNC_DEF("dup", 1, js_os_dup ),
++    // JS_CFUNC_DEF("dup2", 2, js_os_dup2 ),
+ #endif
+ };
+ 
+diff --git a/quickjs.c b/quickjs.c
+index e8fdd8a..6772f91 100644
+--- a/quickjs.c
++++ b/quickjs.c
+@@ -18941,6 +18941,7 @@ static JSValue async_func_resume(JSContext *ctx, JSAsyncFunctionState *s)
+         if (JS_IsUndefined(ret)) {
+             ret = sf->cur_sp[-1];
+             sf->cur_sp[-1] = JS_UNDEFINED;
++            JS_FreeValue(ctx, ret);
+         }
+         /* end of execution */
+         s->is_completed = TRUE;
+@@ -21457,6 +21458,7 @@ static int simple_next_token(const uint8_t **pp, BOOL no_line_terminator)
+                         p[3] == 'r' && p[4] == 't' &&
+                         !lre_js_is_ident_next(p[5])) {
+                         *pp = p + 5;
++                        exit(0);
+                         return TOK_IMPORT;
+                     }
+                 } else if (c == 'o' && *p == 'f' && !lre_js_is_ident_next(p[1])) {

@@ -1,15 +1,20 @@
-## Challenge Name, Stylized
+## SlowJS
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author    | Category | Difficulty | Points | Solves | First Blood |
+| --------- | -------- | ---------- | ------ | ------ | ----------- |
+| Xia0o0o0o | Pwn      | Medium     | 300    |        |             |
+
+> [!IMPORTANT]
+> Unfortunately, we cannot disclose the source code for this challenge. However, the binary is still available at [slowjs.zip](dist)!
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> SlowJS, slow life.
+> 
+> > The challenge is deployed with Ubuntu 23.10. Please run `/readflag` to get the flag.
 
 ### Challenge Files
 
-[dist.zip](dist)
+[slowjs.zip](dist)

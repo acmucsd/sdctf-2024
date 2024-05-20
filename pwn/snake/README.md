@@ -1,14 +1,16 @@
-## Challenge Name, Stylized
+## Snake
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author    | Category | Difficulty | Points | Solves | First Blood |
+| --------- | -------- | ---------- | ------ | ------ | ----------- |
+| Xia0o0o0o | Pwn      | Easy       | 146    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> A simple snake game.
+>
+> > To connect to the challenge, please use `ssh root@ip -p port` with password `password` after creating the container.
 
 ### Challenge Files
 

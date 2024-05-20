@@ -1,15 +1,15 @@
-## Challenge Name, Stylized
+## point-plunderer
 
-| Author   | Category   | Difficulty | Points | Solves | First Blood    |
-| -------- | ---------- | ---------- | ------ | ------ | -------------- |
-|          |            |            |        |        |                |
+| Author | Category | Difficulty | Points | Solves | First Blood |
+| ------ | -------- | ---------- | ------ | ------ | ----------- |
+| Rahil  | Pwn      | Easy       | 100    |        |             |
 
 ---
 
 ### Description
 
-> DESCRIPTION
+> I'm kinda broke, but i found this big point bank. Can you help me? I need POINTSSSS!!!
 
 ### Challenge Files
 
-[dist.zip](dist)
+[chal](dist)
