@@ -5,7 +5,7 @@
 | Xia0o0o0o | Pwn      | Hard       | 500    | 0      |
 
 > [!IMPORTANT]
-> Unfortunately, we cannot disclose the source code for this challenge. However, the binary is still available at [ios_calculator2.zip](dist)!
+> Unfortunately, we cannot disclose the source code for this challenge. However, the binary is still available at [ios_calculator](dist)!
 
 ---
 
@@ -17,4 +17,4 @@
 
 ### Challenge Files
 
-[ios_calculator2.zip](dist)
+[ios_calculator](dist)
