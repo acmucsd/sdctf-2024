@@ -2,14 +2,14 @@
 
 | Author    | Category  | Difficulty | Points | Solves | First Blood |
 | --------- | --------- | ---------- | ------ | ------ | ----------- |
-| mojeanmac | Forensics | Medium     | 158    |        |             |
+| mojeanmac | Forensics | Medium     | 158    | 26     | SNI         |
 
 ---
 
 ### Description
 
 > Great Scott! There’s something in the water! Scan slowly.
-> 
+>
 > ![image](dist/wavs2.png)
 
 ### Challenge Files

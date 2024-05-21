@@ -2,7 +2,7 @@
 
 | Author   | Category     | Difficulty | Points | Solves | First Blood |
 | -------- | ------------ | ---------- | ------ | ------ | ----------- |
-| 18lauey2 | Cryptography | Hard       | 432    |        |             |
+| 18lauey2 | Cryptography | Hard       | 432    | 5      | xls team    |
 
 ---
 

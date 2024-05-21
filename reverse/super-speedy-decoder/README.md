@@ -2,7 +2,7 @@
 
 | Author      | Category | Difficulty | Points | Solves | First Blood |
 | ----------- | -------- | ---------- | ------ | ------ | ----------- |
-| greeenbeans | Reverse  | Medium     | 234    |        |             |
+| greeenbeans | Reverse  | Medium     | 234    | 17     | BYU Cyberia |
 
 ---
 

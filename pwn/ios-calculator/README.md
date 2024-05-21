@@ -1,8 +1,8 @@
 ## iOS Calculator
 
-| Author    | Category | Difficulty | Points | Solves | First Blood |
-| --------- | -------- | ---------- | ------ | ------ | ----------- |
-| Xia0o0o0o | Pwn      | Hard       | 500    |        |             |
+| Author    | Category | Difficulty | Points | Solves |
+| --------- | -------- | ---------- | ------ | ------ |
+| Xia0o0o0o | Pwn      | Hard       | 500    | 0      |
 
 > [!IMPORTANT]
 > Unfortunately, we cannot disclose the source code for this challenge. However, the binary is still available at [ios_calculator2.zip](dist)!

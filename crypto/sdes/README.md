@@ -1,8 +1,8 @@
 ## SDES
 
-| Author   | Category     | Difficulty | Points | Solves | First Blood |
-| -------- | ------------ | ---------- | ------ | ------ | ----------- |
-| 18lauey2 | Cryptography | Easy       | 130    |        |             |
+| Author   | Category     | Difficulty | Points | Solves | First Blood        |
+| -------- | ------------ | ---------- | ------ | ------ | ------------------ |
+| 18lauey2 | Cryptography | Easy       | 130    | 22     | reCAPTCHA the Flag |
 
 ---
 

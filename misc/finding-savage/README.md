@@ -2,7 +2,7 @@
 
 | Author   | Category              | Difficulty | Points | Solves | First Blood |
 | -------- | --------------------- | ---------- | ------ | ------ | ----------- |
-| Infernis | Miscellaneous (OSINT) | Hard       | 233    |        |             |
+| Infernis | Miscellaneous (OSINT) | Hard       | 233    | 23     | ?help       |
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Author      | Category | Difficulty | Points | Solves | First Blood |
 | ----------- | -------- | ---------- | ------ | ------ | ----------- |
-| greeenbeans | Reverse  | Easy       | 100    |        |             |
+| greeenbeans | Reverse  | Easy       | 100    | 120    | BOMBOCLATTT |
 
 ---
 

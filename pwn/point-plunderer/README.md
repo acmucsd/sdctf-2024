@@ -2,7 +2,7 @@
 
 | Author      | Category | Difficulty | Points | Solves | First Blood |
 | ----------- | -------- | ---------- | ------ | ------ | ----------- |
-| greeenbeans | Pwn      | Easy       | 100    |        |             |
+| greeenbeans | Pwn      | Easy       | 100    | 151    | KerKerYuan  |
 
 ---
 

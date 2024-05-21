@@ -2,7 +2,7 @@
 
 | Author    | Category                         | Difficulty | Points | Solves | First Blood |
 | --------- | -------------------------------- | ---------- | ------ | ------ | ----------- |
-| mojeanmac | Miscellaneous (OSINT, Forensics) | Easy       | 162    |        |             |
+| mojeanmac | Miscellaneous (OSINT, Forensics) | Easy       | 162    | 14     | Hellbound   |
 
 ---
 

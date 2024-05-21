@@ -2,7 +2,7 @@
 
 | Author | Category            | Difficulty | Points | Solves | First Blood |
 | ------ | ------------------- | ---------- | ------ | ------ | ----------- |
-| ahh    | Miscellaneous (PPC) | Easy       | 162    |        |             |
+| ahh    | Miscellaneous (PPC) | Easy       | 162    | 14     | sahuang     |
 
 ---
 

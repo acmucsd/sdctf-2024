@@ -2,7 +2,7 @@
 
 | Author   | Category     | Difficulty | Points | Solves | First Blood |
 | -------- | ------------ | ---------- | ------ | ------ | ----------- |
-| 18lauey2 | Cryptography | Easy       | 100    |        |             |
+| 18lauey2 | Cryptography | Easy       | 100    | 47     | S1uM4i      |
 
 ---
 

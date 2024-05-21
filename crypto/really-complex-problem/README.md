@@ -1,8 +1,8 @@
 ## ReallyComplexProblem
 
-| Author   | Category     | Difficulty | Points | Solves | First Blood |
-| -------- | ------------ | ---------- | ------ | ------ | ----------- |
-| 18lauey2 | Cryptography | Hard       | 500    |        |             |
+| Author   | Category     | Difficulty | Points | Solves |
+| -------- | ------------ | ---------- | ------ | ------ |
+| 18lauey2 | Cryptography | Hard       | 500    | 0      |
 
 ---
 

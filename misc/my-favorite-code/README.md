@@ -2,7 +2,7 @@
 
 | Author | Category      | Difficulty | Points | Solves | First Blood |
 | ------ | ------------- | ---------- | ------ | ------ | ----------- |
-| ahh    | Miscellaneous | Medium     | 500    |        |             |
+| ahh    | Miscellaneous | Medium     | 500    | 1      | Maple Bacon |
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Author   | Category      | Difficulty | Points | Solves | First Blood |
 | -------- | ------------- | ---------- | ------ | ------ | ----------- |
-| Infernis | Miscellaneous | Medium     | 372    |        |             |
+| Infernis | Miscellaneous | Medium     | 372    | 6      | Team_X3r0   |
 
 ---
 

@@ -1,7 +1,7 @@
 ## Reverse
 
-| Name                                                 | Author      | Difficulty | Points |
-| ---------------------------------------------------- | ----------- | ---------- | ------ |
-| [Emojis](reverse/emojis)                             | greeenbeans | Easy       | 100    |
-| [food-without-salt](reverse/food-without-salt)       | enscribe    | Medium     | 136    |
-| [super-speedy-decoder](reverse/super-speedy-decoder) | greeenbeans | Medium     | 234    |
+| Name                                         | Author      | Difficulty | Solves |
+| -------------------------------------------- | ----------- | ---------- | ------ |
+| [Emojis](emojis)                             | greeenbeans | Easy       | 120    |
+| [food-without-salt](food-without-salt)       | enscribe    | Medium     | 32     |
+| [super-speedy-decoder](super-speedy-decoder) | greeenbeans | Medium     | 17     |

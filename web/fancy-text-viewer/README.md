@@ -1,8 +1,8 @@
 ## Fancy Text Viewer
 
-| Author | Category | Difficulty | Points | Solves | First Blood |
-| ------ | -------- | ---------- | ------ | ------ | ----------- |
-| ahh    | Web      | Hard       | 444    |        |             |
+| Author | Category | Difficulty | Points | Solves | First Blood      |
+| ------ | -------- | ---------- | ------ | ------ | ---------------- |
+| ahh    | Web      | Hard       | 444    | 4      | Black0ut Bu5ters |
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Author    | Category | Difficulty | Points | Solves | First Blood |
 | --------- | -------- | ---------- | ------ | ------ | ----------- |
-| Xia0o0o0o | Pwn      | Easy       | 146    |        |             |
+| Xia0o0o0o | Pwn      | Easy       | 146    | 16     | BYU Cyberia |
 
 ---
 

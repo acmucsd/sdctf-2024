@@ -2,7 +2,7 @@
 
 | Author | Category | Difficulty | Points | Solves | First Blood |
 | ------ | -------- | ---------- | ------ | ------ | ----------- |
-| Sean   | Web      | Easy       | 100    |        |             |
+| Sean   | Web      | Easy       | 100    | 46     | DoNotTheCat |
 
 ---
 

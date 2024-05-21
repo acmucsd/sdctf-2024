@@ -1,15 +1,15 @@
 ## Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de
 
-| Author    | Category | Difficulty | Points | Solves | First Blood |
-| --------- | -------- | ---------- | ------ | ------ | ----------- |
-| Xia0o0o0o | Pwn      | Medium     | 500    |        |             |
+| Author    | Category | Difficulty | Points | Solves | First Blood          |
+| --------- | -------- | ---------- | ------ | ------ | -------------------- |
+| Xia0o0o0o | Pwn      | Medium     | 500    | 1      | OrangeOrchardOrioles |
 
 ---
 
 ### Description
 
 > Definitely safe todolist since I have `#[forbid(unsafe_code)]`.
-> 
+>
 > > The challenge is deployed with Ubuntu 23.10.
 
 ### Challenge Files

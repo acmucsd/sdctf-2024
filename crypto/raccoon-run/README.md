@@ -2,7 +2,7 @@
 
 | Authors                  | Category     | Difficulty | Points | Solves | First Blood |
 | ------------------------ | ------------ | ---------- | ------ | ------ | ----------- |
-| Sean, Infernis, 18lauey2 | Cryptography | Medium     | 226    |        |             |
+| Sean, Infernis, 18lauey2 | Cryptography | Medium     | 226    | 18     | CyberSpace  |
 
 ---
 
