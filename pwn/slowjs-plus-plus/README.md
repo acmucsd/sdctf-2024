@@ -4,8 +4,6 @@
 | --------- | -------- | ---------- | ------ | ------ | -------------------- |
 | Xia0o0o0o | Pwn      | Medium     | 472    | 2      | OrangeOrchardOrioles |
 
-> [!IMPORTANT]
-> Unfortunately, we cannot disclose the source code for this challenge. However, the binary is still available at [slowjs.zip](dist)!
 
 ---
 
@@ -24,3 +22,11 @@
 ### Challenge Files
 
 [slowjspp.zip](dist)
+
+### Build
+
+```
+cd challenge
+docker build -t slowjspp ./
+docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} slowjspp:latest
+```

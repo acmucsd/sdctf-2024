@@ -15,3 +15,11 @@
 ### Challenge Files
 
 [dist.zip](dist)
+
+### Build
+
+```
+cd challenge
+docker build -t snake ./
+docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} snake:latest
+```
