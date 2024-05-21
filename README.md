@@ -48,8 +48,6 @@ This repository contains the official source code for _most_ challenges from [SD
 | ----------------------------------------------------------------------- | ----------- | ---------- | ------ |
 | [point-plunderer](pwn/point-plunderer)                                  | greeenbeans | Easy       | 151    |
 | [Snake](pwn/snake)                                                      | Xia0o0o0o   | Easy       | 16     |
-| [SlowJS](pwn/slowjs)                                                    | Xia0o0o0o   | Medium     | 10     |
-| [N0 Promises to Keep](pwn/no-promises-to-keep)                          | Xia0o0o0o   | Medium     | 9      |
 | [SlowJS++](pwn/slowjs-plus-plus)                                        | Xia0o0o0o   | Medium     | 2      |
 | [N0 Promises to Keep Revenge](pwn/no-promises-to-keep-revenge)          | Xia0o0o0o   | Medium     | 1      |
 | [Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de](pwn/definitely-safe) | Xia0o0o0o   | Medium     | 1      |
