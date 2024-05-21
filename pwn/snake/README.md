@@ -21,5 +21,10 @@
 ```
 cd challenge
 docker build -t snake ./
-docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} snake:latest
+docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} -p 12345:12345 snake:latest
+```
+
+connect to the challenge
+```
+ssh root@localhost -p 12345
 ```

@@ -28,5 +28,10 @@
 ```
 cd challenge
 docker build -t slowjspp ./
-docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} slowjspp:latest
+docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} -p 12345:70 slowjspp:latest
+```
+
+connect to the challenge
+```
+nc 127.0.0.1 12345
 ```

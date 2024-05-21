@@ -21,5 +21,10 @@
 ```
 cd challenge
 docker build -t Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de ./
-docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de:latest
+docker run -d --rm -e GZCTF_FLAG=sdctf{testflag} -p 12345:70 Def1nit3lysAfetoDol1st5iNc31hAveF0rb1dUnsafec0de:latest
+```
+
+connect to the challenge
+```
+nc 127.0.0.1 12345
 ```

