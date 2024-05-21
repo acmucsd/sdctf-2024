@@ -2,13 +2,13 @@
 
 # ![Banner][Banner]
 
+# San Diego CTF 2024
+
 This repository contains the official source code for _most_ challenges from [SDCTF 2024][CTFTime Event].
 
 [CTFTime Event][CTFTime Event] •
 [Website][Website] •
 [Discord][Discord]
-
-![Leaderboard][Leaderboard]
 
 ---
 
