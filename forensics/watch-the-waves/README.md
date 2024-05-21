@@ -2,7 +2,7 @@
 
 | Author    | Category  | Difficulty | Points | Solves | First Blood |
 | --------- | --------- | ---------- | ------ | ------ | ----------- |
-| mojeanmac | Forensics | Easy       | 112    |        |             |
+| mojeanmac | Forensics | Easy       | 112    | 25     | SNI         |
 
 ---
 
