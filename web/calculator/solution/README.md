@@ -1,6 +1,8 @@
 ## Author's Solution
 
-`json.dumps` outputs `NaN` and `Infinity`, which aren't syntax errors. You can still get `math.inf` by doing `1.0 / 5e-324`.
+*[Full write-up](https://sheeptester.github.io/longer-tweets/sdctf24/#webcalculator)*
+
+`json.dumps` outputs `NaN` and `Infinity`, which aren't valid JSON. You can still get `math.inf` by doing `1.0 / 5e-324`.
 
 ## User-Submitted Writeups
 

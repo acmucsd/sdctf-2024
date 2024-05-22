@@ -1,4 +1,6 @@
-# UTF—wait.
+## Author's Solution
+
+*[Full write-up](https://sheeptester.github.io/longer-tweets/sdctf24/#webutf-wait)*
 
 The way UTF-8 is defined, it can allow characters to be encoded in multiple ways, so the specification explicitly requires decoders to reject these over-long encodings.
 
